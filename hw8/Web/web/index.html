@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Handle Student Database</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <form action="insert" method="Post">
+            ID : <input type="text" name="id" value="" />
+            <br>
+            Name :<input type="text" name="username" value="" />
+            <br>
+            GPA :<input type="text" name="gpa" value="" />
+            <br>
+            <input type="submit" value="Add" />
+            <br>
+            <br>
+        </form >
+        
+        <form action="update" method="Post">
+            ID : <input type="text" name="insert_id" value="" />
+            <br>
+            Name :<input type="text" name="insert_username" value="" />
+            <br>
+            GPA :<input type="text" name="insert_gpa" value="" />
+            <br>
+            <input type="submit" value="Update" />
+            <br>
+            <br>
+
+        </form>
+        
+        <form action="remove" method="Post">
+            ID : <input type="text" name="remove_id" value="" />
+            <br>
+            <input type="submit" value="Remove" />
+        </form>
+    </body>
+</html>
