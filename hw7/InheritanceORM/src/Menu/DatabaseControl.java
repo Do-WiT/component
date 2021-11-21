@@ -16,7 +16,7 @@ import javax.persistence.Persistence;
  * @author wit_w
  */
 public class DatabaseControl {
-     public static void add(Object object) {
+    public static void add(Object object) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("InheritanceORMPU");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();

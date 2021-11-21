@@ -42,7 +42,6 @@ public class RemoveServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("remove_id"));
         Student std = new Student();
         std.setId(id);
-        
         remove(std);
         
         

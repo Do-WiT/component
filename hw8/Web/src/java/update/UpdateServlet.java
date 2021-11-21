@@ -43,8 +43,14 @@ public class UpdateServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("insert_id"));
         String name = request.getParameter("insert_username");
         double gpa = Double.parseDouble(request.getParameter("insert_gpa"));
-        
         Student student = new Student(id, name, gpa);
+        
+        
+        
+        
+        
+        
+        
         
         update(student);
         

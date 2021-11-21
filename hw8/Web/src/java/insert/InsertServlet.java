@@ -44,9 +44,7 @@ public class InsertServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         String name = request.getParameter("username");
         double gpa = Double.parseDouble(request.getParameter("gpa"));
-        
         Student student = new Student(id, name, gpa);
-        
         persist(student);
         
         
